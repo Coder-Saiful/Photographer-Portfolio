@@ -1,0 +1,219 @@
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .header_icon {
+        display: none;
+    }
+
+    #banner_part {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    #service_part,
+    #logo_part,
+    #contact_part {
+        padding: 55px 0;
+    }
+
+    .service_details p {
+        padding: 0;
+    }
+
+    #portfolio_part {
+        padding-top: 55px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio_top_info {
+        margin-top: 50px;
+    }
+
+    .portfolio_bottom_info {
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+
+    #logo_part .logo_1,
+    #logo_part .logo_2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: ;
+        align-content: ;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #testimonial_part {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .portfolio_top_info,
+    .portfolio_bottom_info {
+        padding: 0 20px;
+    }
+
+    .menu_trigger {
+        margin-left: auto;
+    }
+
+    .banner_details p,
+    #contact_part .section_title p {
+        padding: 0;
+    }
+
+    .banner_button a {
+        display: block;
+        margin: auto;
+    }
+
+    .banner_button a.hire_me {
+        margin-top: 20px;
+    }
+
+    #logo_part .logo_2 {
+        margin-top: 45px;
+    }
+
+    .menu_toggle {
+        position: relative;
+        z-index: 9999;
+    }
+
+    #header_part .container {
+        padding: 0 20px;
+    }
+
+}
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header_icon {
+        display: none;
+    }
+
+    #banner_part {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    .banner_details p {
+        padding: 0;
+    }
+
+    #service_part,
+    #logo_part,
+    #contact_part {
+        padding: 55px 0;
+    }
+
+    .service_details p {
+        padding: 0;
+    }
+
+    #portfolio_part {
+        padding-top: 55px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio_top_info {
+        margin-top: 50px;
+    }
+
+    .portfolio_bottom_info {
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+
+    #logo_part .logo_1,
+    #logo_part .logo_2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: ;
+        align-content: ;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #testimonial_part {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .portfolio_top_info,
+    .portfolio_bottom_info {
+        padding: 0 40px;
+    }
+
+
+}
+
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .portfolio_top_info {
+        margin-top: 50px;
+    }
+
+    .portfolio_bottom_info {
+        margin-top: 55px;
+        margin-bottom: 50px;
+    }
+
+    #logo_part .logo_1,
+    #logo_part .logo_2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: ;
+        align-content: ;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+
+}
+
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
